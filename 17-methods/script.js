@@ -29,11 +29,17 @@ console.log(logg.slice(6));
 // второе значение - сколько символов вырезать
 console.log(logg.substr(6, 5));
 
-//ЧИСЕЛЬНЫЕ СВОЙСТВА
+//ЧИСЕЛЬНЫЕ СВОЙСТВА И МЕТОДЫ
 const num = 12.2
 
 //округляет до ближайшего целого
 console.log(Math.round(num));//12
 
+const testNum = "12.2px";
 
-//ЧИСЕЛЬНЫЕ МЕТОДЫ
+//метод который переводит в другую систему исчесления
+//переводит строку в целое число
+console.log(parseInt(testNum));//12
+console.log(parseFloat(testNum));//12.2
+
+
